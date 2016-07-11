@@ -1,0 +1,154 @@
+
+
+@font-face {
+  font-family: 'apper';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/apercu_bold-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'apperlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/apercu_light-webfont.woff") format('woff');
+}
+
+body {
+	 height: 100%
+    
+    font-family: 'apperlow','Helvetica Neue',Arial,sans-serif;
+
+}
+html{
+ height: 100%
+}
+
+header {
+	padding-top: 72px;
+	background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    color: #444444;
+  	background: linear-gradient(-138deg,#fbfbfb 23%,#f0f3f4 69%,#e9edef 100%);
+    
+
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.init-logo{
+	position: absolute;
+	margin: 0px 0px;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.navbar-custom {
+	min-height: 72px;
+	background-color:#fff;
+    color:#000;
+  	border-radius:0;
+}
+
+
+.title-first{
+	padding-top: 100px;
+	font-size: 72px;
+    line-height: 1;
+    margin: 0 0 27px;
+    font-family: 'apper', Arial;
+    letter-spacing: -4px;
+}
+.title-second{
+	
+	font-size: 44px;
+    line-height: 1;
+    margin: 0 0 27px;
+    font-family: 'apper', Arial;
+}
+
+.text-first{
+	margin: 1em 0;
+	font-size: 22px;
+    line-height: 1;
+    margin: 0 0 27px;
+    font-family: 'apperlow', Arial;
+}
+
+.apps{
+	padding-top: 30px;
+	max-width: 350px;
+}
+
+.iphone{
+	padding-top: 32px;
+}
+
+.the-iphone{
+	background-image: url("../img/iphone.png");
+	height: 500px;
+	width: 263px;
+	overflow: hidden;
+}
+
+.iphone-screen{
+	height:361px;
+	width:203px;
+	padding: 5px;
+	position:absolute;
+	top:102px;
+	left: 45px;
+	overflow-y: scroll;
+	font-family: "Helvetica Neue";
+  font-size: 13px;
+  font-weight: normal;
+	
+}
+
+.iphone-screen div {
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 3px;
+  line-height: 13px;
+}
+
+.clear {
+  clear: both;
+}
+
+.from-me {
+  position: relative;
+  padding: 7px 10px;
+  color: white;
+  background: #ff5a58;
+  border-radius: 10px;
+  float: right;
+  margin:0px;
+}
+
+
+.from-them {
+  position: relative;
+  padding: 7px 10px;
+  background: #E5E5EA;
+  border-radius: 10px;
+  color: black;
+  float: left;
+}
+
+.options {
+  position: relative;
+  padding: 7px 10px;
+  background: #64a3f2;
+  border-radius: 0px;
+  color: #fff;
+  float: center;
+  text-align: center;
+}
